@@ -8,7 +8,7 @@ Esse repositório será uma área especial focado em estudos da plataforma Alura
 
 As aulas são organizada em "Projects" e contéudos serão organizados em "Issues".
 - Todas as branchs principais de cada projeto vai carregar o nome "main_nomeProjeto"
-- Todas as branchs referente a Issues terão o "numeroDaIssues_nomeProjeto_nomeIssues"
+- Todas as branchs referente a Issues terão o "#numeroDaIssues_nomeProjeto_nomeIssues"
 
 
 
