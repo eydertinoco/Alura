@@ -1,3 +1,8 @@
+# Informação Eyder
+
+Site informativo sobre FlexBox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Jogo utilizando Flexbox: https://flexboxfroggy.com/
+
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
