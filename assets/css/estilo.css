@@ -89,6 +89,8 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 .titulo-pagina {
     font-size: 1.5rem;
@@ -100,17 +102,31 @@ body {
     overflow: hidden;
     background-color: #2C343A;
 }
+.cartao--destaque {
+    margin-bottom: 16px;
+
+}
+
 .cartao__conteudo {
     padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
+.cartao__destaque {
+    grid-column: span 2;
 }
 .cartao__titulo {
     font-size: 1.2rem;
     font-weight: 700;
+    grid-column: span 2;
 }
 
 .cartao__perfil {
     color: #95999c;
     font-size: 0.9rem;
+    grid-column: span 2;
 }
 .cartao__info {
     display: flex;
@@ -144,7 +160,17 @@ body {
 
 .cartao__botao--destaque {
     width: 100%;
+    grid-column: span 2;
 }
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+.secao {
+    display: grid;
+    gap: 16px;
+}
+.secao__titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
 }
